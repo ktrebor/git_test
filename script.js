@@ -38,6 +38,17 @@ pinkDiv.appendChild(paragraphDiv);
 pinkDiv.setAttribute('style', 'border: 1px solid black; background-color:pink;');
 container.appendChild(pinkDiv);
 
+//Event Listeners Exercises
+function alertFunction () {
+    alert('Yay');
+}
+
+const btn = document.querySelector("#btn");
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
+
+
 
 
 
